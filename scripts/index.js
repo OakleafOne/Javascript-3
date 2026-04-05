@@ -18,7 +18,7 @@ function isValidPassword(password, username) {
 function checkPassword() {
     const user = document.getElementById('username').value;
     const pass = document.getElementById('password').value;
-    const display = document.getElementById('resultat');
+    const display = document.getElementById('result');
 
     if (isValidPassword(pass, user)) {
         display.textContent = "Password is valid!";
